@@ -1,0 +1,37 @@
+/* filter */
+
+.section-filters {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item + .list-item {
+  margin-left: 8px;
+}
+
+.filter {
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px solid transparent;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background-color: #f5f4fa;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter:hover,
+.filter:focus {
+  color: #fff;
+  background-color: var(--accent-color);
+}

@@ -1,0 +1,38 @@
+/* Contacts */
+
+.contacts-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-nav .item + .item {
+  margin-left: 30px;
+}
+
+.contacts-nav .item {
+  color: var(--title-text-color);
+}
+
+.contacts-nav .item:hover,
+.contacts-nav .item:focus {
+  color: var(--accent-color);
+}
+
+.contacts {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  color: currentColor;
+  text-decoration: none;
+}

@@ -1,0 +1,32 @@
+/* Examples */
+
+.applications-list {
+  display: flex;
+}
+
+.applications-list .item + .item {
+  margin-left: 30px;
+}
+
+.applications-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.item-leptop {
+  position: relative;
+}
+
+.title-thumb {
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
+  padding-bottom: 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 370px;
+  height: 70px;
+  padding: 27px;
+}

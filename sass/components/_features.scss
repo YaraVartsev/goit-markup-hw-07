@@ -1,0 +1,43 @@
+/* Features */
+.section-features {
+  padding-bottom: 0;
+}
+
+.feature-list {
+  display: flex;
+}
+
+.feature-list .item + .item {
+  margin-left: 30px;
+}
+
+.feature-list .item {
+  width: 270px;
+}
+
+.feature-list .title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 270px;
+
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.featureses {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.featureses-svg {
+  margin: auto;
+}
