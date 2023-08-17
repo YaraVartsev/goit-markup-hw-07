@@ -1,18 +1,10 @@
-body {
-  background-color: #fff;
-  color: var(--primary-text-color);
-
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-}
-
 /* утиліти */
 
 .list {
   padding: 0;
   margin: 0;
   list-style: none;
-}
+};
 
 .container {
   margin-left: auto;
@@ -21,7 +13,7 @@ body {
 
   padding-left: 15px;
   padding-right: 15px;
-}
+};
 
 /* невидимый */
 .invisible {
@@ -33,4 +25,4 @@ body {
   padding: 0px;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+};
