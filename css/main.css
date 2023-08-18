@@ -1,5 +1,12 @@
 @charset "UTF-8";
 /* утиліти */
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -270,13 +277,6 @@ summary {
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
-}
-
-body {
-  background-color: #fff;
-  color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
 }
 
 /* ШАПКА */
